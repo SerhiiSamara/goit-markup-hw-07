@@ -1,10 +1,12 @@
-.activities-list {
-  display: flex;
+.activities {
+  &__list {
+    display: flex;
+  }
 
   &__item {
     position: relative;
 
-    width: calc((100% - 60px) / 3);
+    @include amountRow(calc((100% - 60px) / 3));
   }
 
   &__item:not(:last-child) {
@@ -19,9 +21,7 @@
   &__text {
     position: absolute;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter($type: flex, $main-axis: center, $cross-axis: center);
 
     height: 70px;
     width: 100%;

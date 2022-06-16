@@ -3,138 +3,17 @@
   padding-bottom: 60px;
 
   background-color: $color-background-dark;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    color: $color-text-light;
+  }
 }
 
-.footer__container {
-  display: flex;
-  align-items: center;
-}
-
-.footer__logo {
-  color: $color-text-light;
-}
-
-.address {
+.address__footer {
   margin-right: 70px;
-}
-
-.address__contain {
-  margin-top: 20px;
-
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
-
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.address__list:first-child {
-  color: $color-text-light;
-}
-
-.address__link {
-  color: $color-link-light;
-  text-decoration: none;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__link:hover,
-.address__link:focus {
-  color: $color-accent;
-
-  outline: 0;
-}
-
-.footer-icons {
-  margin-right: 93px;
-}
-
-.footer-icons__title {
-  margin-bottom: 20px;
-
-  color: $color-text-light;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.footer-icons__list {
-  display: flex;
-}
-
-.footer-icons__item {
-  height: 44px;
-  width: 44px;
-}
-
-.footer-icons__item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-icons__link {
-  display: block;
-
-  height: 100%;
-  width: 100%;
-  padding: 12px;
-
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-icons__link:hover,
-.footer-icons__link:focus {
-  background-color: $color-accent;
-  outline: 0;
-}
-
-.footer-icons__icon {
-  fill: $color-text-light;
-}
-
-.footer-form__title {
-  margin-bottom: 20px;
-
-  color: $color-text-light;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
-.footer-form__contain {
-  display: flex;
-}
-
-.footer-form__input {
-  margin-right: 12px;
-  width: 358px;
-  height: 50px;
-  padding-left: 16px;
-
-  color: $color-text-light;
-
-  background-color: $color-background-dark;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-}
-
-.footer-form__icon {
-  fill: $color-text-light;
-  margin-left: 10px;
-}
-
-.footer-form__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }

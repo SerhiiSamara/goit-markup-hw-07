@@ -1,12 +1,12 @@
 .features {
   padding-bottom: 0;
-}
 
-.features-list {
-  display: flex;
+  &__list {
+    display: flex;
+  }
 
   &__item {
-    width: calc((100% - 90px) / 4);
+    @include amountRow(calc((100% - 90px) / 4));
   }
 
   &__item:not(:last-child) {
