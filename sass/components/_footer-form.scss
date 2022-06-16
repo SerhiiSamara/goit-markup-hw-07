@@ -1,6 +1,5 @@
 .footer-form {
-	
-  .footer-form__title {
+  &__title {
     margin-bottom: 20px;
 
     color: $color-text-light;
@@ -11,11 +10,11 @@
     text-transform: uppercase;
   }
 
-  .footer-form__contain {
+  &__contain {
     display: flex;
   }
 
-  .footer-form__input {
+  &__input {
     margin-right: 12px;
     width: 358px;
     height: 50px;
@@ -29,12 +28,12 @@
     border-radius: 4px;
   }
 
-  .footer-form__icon {
+  &__icon {
     fill: $color-text-light;
     margin-left: 10px;
   }
 
-  .footer-form__button {
+  &__button {
     display: flex;
     align-items: center;
     justify-content: center;

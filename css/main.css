@@ -791,7 +791,7 @@ h3 {
   fill: #fff;
 }
 
-.footer-form .footer-form__title {
+.footer-form__title {
   margin-bottom: 20px;
   color: #fff;
   font-weight: 700;
@@ -801,13 +801,13 @@ h3 {
   text-transform: uppercase;
 }
 
-.footer-form .footer-form__contain {
+.footer-form__contain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-form .footer-form__input {
+.footer-form__input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -820,12 +820,12 @@ h3 {
   border-radius: 4px;
 }
 
-.footer-form .footer-form__icon {
+.footer-form__icon {
   fill: #fff;
   margin-left: 10px;
 }
 
-.footer-form .footer-form__button {
+.footer-form__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
