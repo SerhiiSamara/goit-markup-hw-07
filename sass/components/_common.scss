@@ -88,13 +88,3 @@ h3 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-@mixin amountRow($width) {
-  width: $width;
-}
-
-@mixin flexCenter($type: flex, $main-axis: center, $cross-axis: center) {
-  display: $type;
-  justify-content: $main-axis;
-  align-items: $cross-axis;
-} ;
